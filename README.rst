@@ -2,6 +2,12 @@
 sphinxcontrib-swaggerdoc
 ========================
 
+A clone from https://github.com/unaguil/sphinx-swaggerdoc
+
+The main goal is to support YAML and JSON swagger files
+
+-----
+
 Sphinx extension for documenting Swagger 2.0 APIs
 
 .. code:: bash
@@ -22,7 +28,7 @@ Add directive pointing to a remote Swagger api-docs
 .. code:: restructuredtext
 
     .. swaggerv2doc:: URL/swagger.json
-    
+
 or to a local file
 
 .. code:: restructuredtext
