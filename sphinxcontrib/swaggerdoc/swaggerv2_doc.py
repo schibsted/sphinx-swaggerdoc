@@ -30,7 +30,7 @@ class SwaggerV2DocDirective(Directive):
     has_content = True
 
     def load_swagger(self, content):
-	    try:
+        try:
             return json.loads(content)
         except Exception:
             return yaml.load(content)
